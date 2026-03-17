@@ -1,0 +1,568 @@
+/* Loading State */
+.edit-article-loading {
+  text-align: center;
+  padding: 100px 20px;
+  color: #6b7280;
+}
+
+body.dark-mode .edit-article-loading {
+  color: #b8b8b8;
+}
+
+/* Container */
+.edit-article-container {
+  max-width: 1200px;
+  margin: 80px auto 0;
+  padding: 40px 24px;
+}
+
+/* Header */
+.edit-article-header {
+  position: relative;
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+.edit-article-header-accent {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #E34234, transparent);
+  border-radius: 2px;
+}
+
+.edit-article-header h1 {
+  color: #2a2a2a;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+body.dark-mode .edit-article-header h1 {
+  color: #f5f5f5;
+}
+
+.edit-article-header p {
+  color: #6b7280;
+  font-size: 16px;
+}
+
+body.dark-mode .edit-article-header p {
+  color: #b8b8b8;
+}
+
+/* Form */
+.edit-article-form {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 40px;
+  border: 1px solid rgba(100, 100, 100, 0.1);
+}
+
+body.dark-mode .edit-article-form {
+  background: rgba(42, 42, 42, 0.6);
+  border-color: rgba(200, 200, 200, 0.1);
+}
+
+.edit-article-form-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.edit-article-form-group {
+  margin-bottom: 24px;
+}
+
+.edit-article-form-group label {
+  display: flex;
+  align-items: center;
+  color: #2a2a2a;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+body.dark-mode .edit-article-form-group label {
+  color: #f5f5f5;
+}
+
+.edit-article-form-group input,
+.edit-article-form-group select,
+.edit-article-form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid rgba(100, 100, 100, 0.15);
+  border-radius: 8px;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  color: #2a2a2a;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* File input styling - Abu-abu mirip AddArticle */
+.edit-article-form-group input[type="file"] {
+  padding: 10px 16px;
+  background: rgba(150, 150, 150, 0.15);
+  border: 2px solid rgba(100, 100, 100, 0.2);
+  cursor: pointer;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.edit-article-form-group input[type="file"]:hover {
+  background: rgba(150, 150, 150, 0.25);
+  border-color: rgba(100, 100, 100, 0.3);
+}
+
+body.dark-mode .edit-article-form-group input[type="file"] {
+  background: rgba(150, 150, 150, 0.2);
+  border-color: rgba(150, 150, 150, 0.25);
+  color: #b8b8b8;
+}
+
+body.dark-mode .edit-article-form-group input[type="file"]:hover {
+  background: rgba(150, 150, 150, 0.3);
+  border-color: rgba(150, 150, 150, 0.35);
+}
+
+/* Browse button styling - Abu-abu */
+.edit-article-form-group input[type="file"]::file-selector-button {
+  padding: 8px 16px;
+  margin-right: 12px;
+  background: rgba(150, 150, 150, 0.3);
+  border: none;
+  border-radius: 6px;
+  color: #2a2a2a;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.edit-article-form-group input[type="file"]::file-selector-button:hover {
+  background: rgba(150, 150, 150, 0.45);
+}
+
+body.dark-mode .edit-article-form-group input[type="file"]::file-selector-button {
+  background: rgba(150, 150, 150, 0.35);
+  color: #f5f5f5;
+}
+
+body.dark-mode .edit-article-form-group input[type="file"]::file-selector-button:hover {
+  background: rgba(150, 150, 150, 0.5);
+}
+
+/* Category select styling with dropdown arrow */
+.edit-article-form-group select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%236b7280' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 36px;
+}
+
+.edit-article-form-group select option {
+  background: white;
+  color: #2a2a2a;
+  padding: 8px;
+}
+
+body.dark-mode .edit-article-form-group select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23b8b8b8' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+}
+
+body.dark-mode .edit-article-form-group select option {
+  background: #2a2a2a;
+  color: #f5f5f5;
+}
+
+/* Orange/Red tag styling for selected category - mirip AddArticle */
+.edit-article-form-group select:not([value=""]) {
+  background-color: rgba(227, 66, 52, 0.1);
+  border-color: rgba(227, 66, 52, 0.3);
+  color: #e34234;
+  font-weight: 600;
+}
+
+body.dark-mode .edit-article-form-group select:not([value=""]) {
+  background-color: rgba(255, 107, 94, 0.15);
+  border-color: rgba(255, 107, 94, 0.35);
+  color: #ff6b5e;
+}
+
+.edit-article-form-group input:focus,
+.edit-article-form-group select:focus,
+.edit-article-form-group textarea:focus {
+  outline: none;
+  border-color: #E34234;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+body.dark-mode .edit-article-form-group input,
+body.dark-mode .edit-article-form-group select,
+body.dark-mode .edit-article-form-group textarea {
+  background: rgba(60, 60, 60, 0.5);
+  border-color: rgba(200, 200, 200, 0.15);
+  color: #f5f5f5;
+}
+
+body.dark-mode .edit-article-form-group input:focus,
+body.dark-mode .edit-article-form-group select:focus,
+body.dark-mode .edit-article-form-group textarea:focus {
+  background: rgba(60, 60, 60, 0.8);
+  border-color: #E34234;
+}
+
+.edit-article-form-group textarea {
+  resize: vertical;
+}
+
+.edit-article-form-group input.error,
+.edit-article-form-group select.error,
+.edit-article-form-group textarea.error {
+  border-color: #E34234;
+}
+
+/* Error Message */
+.edit-article-error-message {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #E34234;
+  font-size: 13px;
+  margin-top: 6px;
+  font-weight: 500;
+}
+
+.edit-article-error-message svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* Image Status */
+.edit-article-image-status {
+  font-size: 12px;
+  color: #00BCD4;
+  margin-top: 8px;
+}
+
+/* Image Preview */
+.edit-article-image-preview {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  border: 2px solid rgba(100, 100, 100, 0.1);
+  position: relative;
+}
+
+.edit-article-image-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.edit-article-image-preview-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  color: white;
+  padding: 8px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+body.dark-mode .edit-article-image-preview-label {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Button Group */
+.edit-article-button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+/* Save Button - Cyan (mirip AddArticle) */
+.edit-article-btn-save {
+  width: 100%;
+  background: #00BCD4;
+  color: white;
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  margin-top: 8px;
+}
+
+.edit-article-btn-save:hover:not(:disabled) {
+  background: #00a8bb;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 188, 212, 0.3);
+}
+
+.edit-article-btn-save:disabled {
+  background: rgba(100, 100, 100, 0.3);
+  cursor: not-allowed;
+  transform: none;
+}
+
+body.dark-mode .edit-article-btn-save {
+  background: #00BCD4;
+  color: #2a2a2a;
+}
+
+body.dark-mode .edit-article-btn-save:hover:not(:disabled) {
+  background: #1ecbe0;
+}
+
+.edit-article-btn-save svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Modal Overlay */
+.edit-article-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* Unified Modal System - Same as AddArticle */
+.edit-article-modal {
+  position: relative;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 400px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: modalSlideIn 0.3s ease-out;
+}
+
+body.dark-mode .edit-article-modal {
+  background: rgba(42, 42, 42, 0.95);
+}
+
+.edit-article-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #6b7280;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.edit-article-modal-close:hover {
+  background: rgba(100, 100, 100, 0.1);
+  color: #2a2a2a;
+}
+
+body.dark-mode .edit-article-modal-close {
+  color: #b8b8b8;
+}
+
+body.dark-mode .edit-article-modal-close:hover {
+  background: rgba(200, 200, 200, 0.1);
+  color: #f5f5f5;
+}
+
+.edit-article-modal-close svg {
+  width: 20px;
+  height: 20px;
+}
+
+.edit-article-modal h3 {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #2a2a2a;
+}
+
+body.dark-mode .edit-article-modal h3 {
+  color: #f5f5f5;
+}
+
+.edit-article-modal p {
+  margin-top: 10px;
+  color: #6b7280;
+}
+
+body.dark-mode .edit-article-modal p {
+  color: #b8b8b8;
+}
+
+/* Confirmation Modal */
+.edit-article-modal-content {
+  position: relative;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  padding: 40px;
+  max-width: 400px;
+  width: 90%;
+  border: 1px solid rgba(100, 100, 100, 0.1);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: modalSlideIn 0.3s ease-out;
+}
+
+body.dark-mode .edit-article-modal-content {
+  background: rgba(42, 42, 42, 0.95);
+  border-color: rgba(200, 200, 200, 0.1);
+}
+
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.edit-article-modal-content h3 {
+  color: #2a2a2a;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+body.dark-mode .edit-article-modal-content h3 {
+  color: #f5f5f5;
+}
+
+.edit-article-modal-content p {
+  color: #6b7280;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+body.dark-mode .edit-article-modal-content p {
+  color: #b8b8b8;
+}
+
+.edit-article-modal-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.edit-article-btn-cancel {
+  flex: 1;
+  background: transparent;
+  color: #6b7280;
+  border: 2px solid rgba(100, 100, 100, 0.2);
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.edit-article-btn-cancel:hover {
+  background: rgba(100, 100, 100, 0.08);
+  border-color: rgba(100, 100, 100, 0.3);
+}
+
+body.dark-mode .edit-article-btn-cancel {
+  color: #b8b8b8;
+  border-color: rgba(200, 200, 200, 0.2);
+}
+
+body.dark-mode .edit-article-btn-cancel:hover {
+  background: rgba(200, 200, 200, 0.1);
+  border-color: rgba(200, 200, 200, 0.3);
+}
+
+.edit-article-btn-confirm {
+  flex: 1;
+  background: #E34234;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.edit-article-btn-confirm:hover {
+  background: #c73629;
+  transform: translateY(-2px);
+}
+
+.edit-article-btn-confirm svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .edit-article-header h1 {
+    font-size: 32px;
+  }
+
+  .edit-article-form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .edit-article-form {
+    padding: 24px;
+  }
+
+  .edit-article-button-group {
+    flex-direction: column;
+  }
+
+  .edit-article-modal-content,
+  .edit-article-modal {
+    margin: 0 20px;
+    padding: 30px;
+  }
+}

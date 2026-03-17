@@ -1,0 +1,104 @@
+[
+  {
+    "_id": {
+      "$oid": "693ec1e51ec61017ca9dc29d"
+    },
+    "username": "fathan_arya_maulana",
+    "fullname": "fathan_arya_maulana",
+    "email": "fathanaryamaulana@gmail.com",
+    "password": "$2b$12$qIK5wOFTwV7rk3A6fmJLguJOR0VTHlARvid8/Ho6tL7xxD.UyZY/W",
+    "role": "admin",
+    "created_at": {
+      "$date": "2025-12-12T20:02:14.484Z"
+    },
+    "updated_at": {
+      "$date": "2025-12-12T20:02:14.484Z"
+    },
+    "report_count": 0
+  },
+  {
+    "_id": {
+      "$oid": "693ec71b459eb2620c9dc29d"
+    },
+    "username": "rafiqlabib",
+    "fullname": "rafiqlabib",
+    "email": "rafiq_labib@example.com",
+    "password": "$2b$12$uRFcUDCu890Ct/b5hRDlM.bmqoGOFBWLD/DMvMrDCS1OK9ZxqqrZe",
+    "role": "admin",
+    "created_at": {
+      "$date": "2025-12-12T20:02:15.193Z"
+    },
+    "updated_at": {
+      "$date": "2025-12-12T20:02:15.193Z"
+    },
+    "report_count": 0
+  },
+  {
+    "_id": {
+      "$oid": "693ec76376eb27ad7e9dc29d"
+    },
+    "username": "dzakyalfaris",
+    "fullname": "dzakyalfaris",
+    "email": "dzaky_alfaris@example.com",
+    "password": "$2b$12$B2pGUM3BUvo37mLCNO7jB.1B6Il4sW7/2vOModgzGlDNGNjzLIeli",
+    "role": "admin",
+    "created_at": {
+      "$date": "2025-12-12T20:02:15.879Z"
+    },
+    "updated_at": {
+      "$date": "2025-12-12T20:02:15.879Z"
+    },
+    "report_count": 0
+  },
+  {
+    "_id": {
+      "$oid": "693ec78cadf9688bb79dc29d"
+    },
+    "username": "rifqiazhad",
+    "fullname": "rifqiazhad",
+    "email": "rifqi_azhad@example.com",
+    "password": "$2b$12$lo4O5QkMfz.Ktj9v4A50N.vgxcHw9cwlL16W3SVy/U0xn4VlWoEZ.",
+    "role": "admin",
+    "created_at": {
+      "$date": "2025-12-12T20:02:16.570Z"
+    },
+    "updated_at": {
+      "$date": "2025-12-12T20:02:16.570Z"
+    },
+    "report_count": 0
+  },
+  {
+    "_id": {
+      "$oid": "693fd1947ea4cbcaed019911"
+    },
+    "username": "williamafton",
+    "fullname": "williamafton",
+    "email": "williamafton@example.com",
+    "password": "$2b$12$0ruUIdFf81TWcJHjpBe1peqqm.MZGbFlD1vaeMJxE2/bmqbXkU/06",
+    "role": "user",
+    "report_count": 0,
+    "created_at": {
+      "$date": "2025-12-15T09:15:00.846Z"
+    },
+    "updated_at": {
+      "$date": "2025-12-15T09:15:00.846Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd1ca7ea4cbcaed019912"
+    },
+    "username": "freddymercury",
+    "fullname": "freddymercury",
+    "email": "freddymercury@example.com",
+    "password": "$2b$12$PUR5IRYVkFvP/.U6uFGs1OrxwKSHzMvweGrlijOv8h88lPy8iwH7u",
+    "role": "user",
+    "report_count": 0,
+    "created_at": {
+      "$date": "2025-12-15T09:15:54.987Z"
+    },
+    "updated_at": {
+      "$date": "2025-12-15T09:15:54.987Z"
+    }
+  }
+]

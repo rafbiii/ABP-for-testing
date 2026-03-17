@@ -1,0 +1,93 @@
+version: '3.8'
+
+services:
+  # MongoDB Database
+  mongodb:
+    image: mongo:latest
+    container_name: retogen-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    environment:
+      - MONGO_INITDB_DATABASE=Retogen
+    networks:
+      - retogen-network
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Database Initialization
+  db-init:
+    image: mongo:latest
+    container_name: retogen-db-init
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d:ro
+      - ./init-mongo.sh:/init-mongo.sh:ro
+    networks:
+      - retogen-network
+    command: bash /init-mongo.sh
+    restart: "no"
+
+  # FastAPI Backend
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: retogen-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/Retogen
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      db-init:
+        condition: service_completed_successfully
+    networks:
+      - retogen-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/')"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
+
+  # React Frontend
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    volumes:
+      - ./frontend/src:/app/src
+      - /app/node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    container_name: retogen-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - retogen-network
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:80"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+
+networks:
+  retogen-network:
+    driver: bridge
+
+volumes:
+  mongodb_data:

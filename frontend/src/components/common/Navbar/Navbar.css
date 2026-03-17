@@ -1,0 +1,276 @@
+/* Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(246, 238, 238, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(100, 100, 100, 0.1);
+  z-index: 1000;
+  height: 64px;
+  transition: all 0.3s ease;
+}
+
+body.dark-mode .navbar {
+  background: rgba(67, 68, 67, 0.8);
+  border-bottom: 1px solid rgba(240, 69, 69, 0.1);
+}
+
+.navbar-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #6b7280;
+  transition: color 0.3s ease;
+  margin-left: 0;
+}
+
+body.dark-mode .navbar-logo {
+  color: #b8b8b8;
+}
+
+.navbar-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.navbar-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Back Button */
+.navbar-back-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: transparent;
+  border: 2px solid rgba(100, 100, 100, 0.2);
+  border-radius: 8px;
+  color: #6b7280;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  min-width: 88px;
+}
+
+/* Placeholder untuk spacing konsisten saat tidak ada tombol Back */
+.navbar-back-placeholder {
+  min-width: 88px;
+  height: 40px;
+}
+
+.navbar-back-btn svg {
+  width: 16px;
+  height: 16px;
+  stroke-width: 2.5;
+}
+
+.navbar-back-btn:hover {
+  background: rgba(100, 100, 100, 0.08);
+  color: #6b7280;
+  border-color: rgba(100, 100, 100, 0.3);
+}
+
+body.dark-mode .navbar-back-btn {
+  border-color: rgba(200, 200, 200, 0.2);
+  color: #b8b8b8;
+}
+
+body.dark-mode .navbar-back-btn:hover {
+  background: rgba(200, 200, 200, 0.1);
+  color: #b8b8b8;
+  border-color: rgba(200, 200, 200, 0.3);
+}
+
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar-theme-toggle {
+  background: transparent;
+  border: 2px solid rgba(100, 100, 100, 0.2);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #6b7280;
+}
+
+body.dark-mode .navbar-theme-toggle {
+  border-color: rgba(200, 200, 200, 0.2);
+  color: #b8b8b8;
+}
+
+.navbar-theme-toggle svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 2;
+}
+
+.navbar-theme-toggle:hover {
+  background: rgba(0, 206, 209, 0.1);
+  border-color: #00ced1;
+  transform: scale(1.05);
+}
+
+body.dark-mode .navbar-theme-toggle:hover {
+  background: rgba(93, 215, 218, 0.1);
+  border-color: #5dd7da;
+}
+
+.navbar-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.navbar-btn-login {
+  background: transparent;
+  color: #6b7280;
+  border: 2px solid rgba(100, 100, 100, 0.2);
+}
+
+.navbar-btn-login:hover {
+  background: rgba(100, 100, 100, 0.08);
+  color: #6b7280;
+  border-color: rgba(100, 100, 100, 0.3);
+}
+
+body.dark-mode .navbar-btn-login {
+  color: #b8b8b8;
+  border-color: rgba(200, 200, 200, 0.2);
+}
+
+body.dark-mode .navbar-btn-login:hover {
+  background: rgba(200, 200, 200, 0.1);
+  color: #b8b8b8;
+  border-color: rgba(200, 200, 200, 0.3);
+}
+
+.navbar-btn-register {
+  background: #00ced1;
+  color: white;
+}
+
+.navbar-btn-register:hover {
+  background: #00b8bb;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 206, 209, 0.3);
+}
+
+body.dark-mode .navbar-btn-register {
+  background: #5dd7da;
+  color: #1a1a1a;
+}
+
+body.dark-mode .navbar-btn-register:hover {
+  background: #7de2e5;
+}
+
+/* Account Button */
+.navbar-btn-account {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #00ced1;
+  color: white;
+}
+
+.navbar-btn-account svg {
+  width: 18px;
+  height: 18px;
+  stroke-width: 2.5;
+}
+
+.navbar-btn-account:hover {
+  background: #00b8bb;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 206, 209, 0.3);
+}
+
+body.dark-mode .navbar-btn-account {
+  background: #5dd7da;
+  color: #1a1a1a;
+}
+
+body.dark-mode .navbar-btn-account:hover {
+  background: #7de2e5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-inner {
+    padding: 0 20px;
+  }
+
+  .navbar-buttons .navbar-btn-login {
+    display: none;
+  }
+
+  .navbar-back-btn span {
+    display: none;
+  }
+
+  .navbar-back-btn {
+    padding: 8px;
+    width: 40px;
+    min-width: 40px;
+    justify-content: center;
+  }
+
+  .navbar-back-placeholder {
+    width: 40px;
+    min-width: 40px;
+  }
+
+  .navbar-btn-account span {
+    display: none;
+  }
+
+  .navbar-btn-account {
+    padding: 10px;
+    width: 40px;
+    justify-content: center;
+  }
+}

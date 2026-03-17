@@ -1,0 +1,159 @@
+/* Rating Section Styles */
+
+.rating-section {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(100, 100, 100, 0.08);
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 24px;
+}
+
+body.dark-mode .rating-section {
+  background: rgba(42, 42, 42, 0.6);
+  border-color: rgba(200, 200, 200, 0.08);
+}
+
+.rating-section h2 {
+  color: #2a2a2a;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+body.dark-mode .rating-section h2 {
+  color: #f5f5f5;
+}
+
+.user-rating-display {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  background: rgba(0, 188, 212, 0.05);
+  border: 1px solid rgba(0, 188, 212, 0.15);
+  border-radius: 12px;
+}
+
+body.dark-mode .user-rating-display {
+  background: rgba(0, 188, 212, 0.08);
+  border-color: rgba(0, 188, 212, 0.2);
+}
+
+.star-rating-display {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+
+.star-rating-display .star-display {
+  width: 28px;
+  height: 28px;
+  color: #d1d5db;
+}
+
+.star-rating-display .star-display.filled {
+  color: #E34234;
+  fill: #E34234;
+}
+
+body.dark-mode .star-rating-display .star-display {
+  color: #4a4a4a;
+}
+
+.rating-value {
+  color: #2a2a2a;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+
+body.dark-mode .rating-value {
+  color: #e8e8e8;
+}
+
+.btn-edit-rating {
+  background: #00BCD4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  align-self: center;
+}
+
+.btn-edit-rating:hover {
+  background: #00a3b8;
+  transform: translateY(-2px);
+}
+
+.btn-edit-rating svg {
+  width: 16px;
+  height: 16px;
+}
+
+.rating-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.star-rating {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.star {
+  width: 36px;
+  height: 36px;
+  color: #d1d5db;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.star:hover,
+.star.active {
+  color: #E34234;
+  fill: #E34234;
+  transform: scale(1.1);
+}
+
+body.dark-mode .star {
+  color: #4a4a4a;
+}
+
+.rating-helper {
+  color: #6b7280;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+
+body.dark-mode .rating-helper {
+  color: #b8b8b8;
+}
+
+@media (max-width: 768px) {
+  .rating-section {
+    padding: 24px;
+  }
+
+  .star-rating {
+    justify-content: center;
+  }
+
+  .star {
+    width: 28px;
+    height: 28px;
+  }
+}

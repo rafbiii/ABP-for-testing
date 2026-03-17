@@ -1,0 +1,86 @@
+/* Background Effects */
+body::before {
+    content: '';
+    position: fixed;
+    width: 800px;
+    height: 800px;
+    background: radial-gradient(circle, rgba(0, 206, 209, 0.06), transparent);
+    top: -200px;
+    right: -200px;
+    border-radius: 50%;
+    filter: blur(100px);
+    z-index: 0;
+    pointer-events: none;
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(circle, rgba(227, 66, 52, 0.05), transparent);
+    bottom: -150px;
+    left: -150px;
+    border-radius: 50%;
+    filter: blur(100px);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.bg-shape-1 {
+    position: fixed;
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(135deg, rgba(0, 206, 209, 0.08), transparent);
+    border-radius: 40% 60% 70% 30%;
+    top: 20%;
+    right: 10%;
+    filter: blur(90px);
+    z-index: 0;
+    pointer-events: none;
+    animation: float 20s ease-in-out infinite;
+}
+
+.bg-shape-2 {
+    position: fixed;
+    width: 550px;
+    height: 550px;
+    background: linear-gradient(135deg, rgba(227, 66, 52, 0.07), transparent);
+    border-radius: 60% 40% 30% 70%;
+    bottom: 15%;
+    left: 5%;
+    filter: blur(85px);
+    z-index: 0;
+    pointer-events: none;
+    animation: float-reverse 25s ease-in-out infinite;
+}
+
+.bg-shape-3 {
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(135deg, rgba(100, 100, 100, 0.04), transparent);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(80px);
+    z-index: 0;
+    pointer-events: none;
+    animation: float-slow 30s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(30px, -30px); }
+}
+
+@keyframes float-reverse {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(-30px, 30px); }
+}
+
+@keyframes float-slow {
+    0%, 100% { transform: translate(-50%, -50%); }
+    50% { transform: translate(calc(-50% + 20px), calc(-50% - 20px)); }
+}

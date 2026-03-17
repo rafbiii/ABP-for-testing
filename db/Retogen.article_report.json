@@ -1,0 +1,62 @@
+[
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe4e"
+    },
+    "article_id": {
+      "$oid": "675e8a1f2c4d3e8f9a1b2c3f"
+    },
+    "description": "Inaccurate product information",
+    "created_at": {
+      "$date": "2025-10-19T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe4f"
+    },
+    "article_id": {
+      "$oid": "675e8a1f2c4d3e8f9a1b2c3f"
+    },
+    "description": "Misleading information about specifications",
+    "created_at": {
+      "$date": "2025-10-30T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe50"
+    },
+    "article_id": {
+      "$oid": "675e8a1f2c4d3e8f9a1b2c3f"
+    },
+    "description": "Low quality or irrelevant content",
+    "created_at": {
+      "$date": "2025-12-14T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe51"
+    },
+    "article_id": {
+      "$oid": "675e8a1f2c4d3e8f9a1b2c3f"
+    },
+    "description": "Copied content from other sources",
+    "created_at": {
+      "$date": "2025-11-04T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe52"
+    },
+    "article_id": {
+      "$oid": "675e8a1f2c4d3e8f9a1b2c3e"
+    },
+    "description": "Spam content with affiliate links",
+    "created_at": {
+      "$date": "2025-10-30T16:41:59.879310Z"
+    }
+  }
+]

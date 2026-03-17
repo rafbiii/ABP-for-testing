@@ -1,0 +1,38 @@
+[
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe53"
+    },
+    "reported_user_id": {
+      "$oid": "693ec71b459eb2620c9dc29d"
+    },
+    "description": "Harassment or bullying behavior",
+    "created_at": {
+      "$date": "2025-12-10T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe54"
+    },
+    "reported_user_id": {
+      "$oid": "693fd1947ea4cbcaed019911"
+    },
+    "description": "Harassment or bullying behavior",
+    "created_at": {
+      "$date": "2025-11-27T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe55"
+    },
+    "reported_user_id": {
+      "$oid": "693ec1e51ec61017ca9dc29d"
+    },
+    "description": "Posting offensive content repeatedly",
+    "created_at": {
+      "$date": "2025-11-26T16:41:59.879310Z"
+    }
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbdfe"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c40",
+    "owner_id": "693fd1947ea4cbcaed019911",
+    "parent_comment_id": null,
+    "comment_content": "Not worth the money.",
+    "created_at": {
+      "$date": "2025-12-01T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbdff"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3d",
+    "owner_id": "693fd1947ea4cbcaed019911",
+    "parent_comment_id": null,
+    "comment_content": "Good for video editing.",
+    "created_at": {
+      "$date": "2025-09-17T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe00"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3d",
+    "owner_id": "693fd1947ea4cbcaed019911",
+    "parent_comment_id": null,
+    "comment_content": "Ports selection is adequate.",
+    "created_at": {
+      "$date": "2025-09-10T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe01"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c40",
+    "owner_id": "693ec71b459eb2620c9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "RGB lighting is cool.",
+    "created_at": {
+      "$date": "2025-11-22T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe02"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3d",
+    "owner_id": "693fd1947ea4cbcaed019911",
+    "parent_comment_id": null,
+    "comment_content": "Great for productivity.",
+    "created_at": {
+      "$date": "2025-08-31T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe03"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3d",
+    "owner_id": "693fd1ca7ea4cbcaed019912",
+    "parent_comment_id": null,
+    "comment_content": "Software is bloat-free.",
+    "created_at": {
+      "$date": "2025-10-14T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe04"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c40",
+    "owner_id": "693fd1947ea4cbcaed019911",
+    "parent_comment_id": null,
+    "comment_content": "Trackpad is very responsive.",
+    "created_at": {
+      "$date": "2025-10-17T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe05"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c40",
+    "owner_id": "693ec1e51ec61017ca9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Great specs for the price!",
+    "created_at": {
+      "$date": "2025-09-30T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe06"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3d",
+    "owner_id": "693ec1e51ec61017ca9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Perfect for students.",
+    "created_at": {
+      "$date": "2025-09-11T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe07"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c40",
+    "owner_id": "693ec71b459eb2620c9dc29d",
+    "parent_comment_id": "693fd7e7255db70d804fbe05",
+    "comment_content": "GPU performs well in games.",
+    "created_at": {
+      "$date": "2025-09-09T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe08"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3e",
+    "owner_id": "693ec76376eb27ad7e9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Cooling system works well.",
+    "created_at": {
+      "$date": "2025-08-28T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe09"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c41",
+    "owner_id": "693ec78cadf9688bb79dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Great for productivity.",
+    "created_at": {
+      "$date": "2025-12-13T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe0a"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3d",
+    "owner_id": "693fd1ca7ea4cbcaed019912",
+    "parent_comment_id": "693fd7e7255db70d804fbe02",
+    "comment_content": "Build quality feels solid.",
+    "created_at": {
+      "$date": "2025-10-16T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe0b"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c41",
+    "owner_id": "693ec1e51ec61017ca9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Had some driver issues initially.",
+    "created_at": {
+      "$date": "2025-11-06T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe0c"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3d",
+    "owner_id": "693ec71b459eb2620c9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Fast boot time.",
+    "created_at": {
+      "$date": "2025-08-22T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe0d"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3e",
+    "owner_id": "693ec76376eb27ad7e9dc29d",
+    "parent_comment_id": "693fd7e7255db70d804fbe08",
+    "comment_content": "Battery drains during heavy use.",
+    "created_at": {
+      "$date": "2025-09-22T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe0e"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3e",
+    "owner_id": "693ec76376eb27ad7e9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Backlit keyboard is useful.",
+    "created_at": {
+      "$date": "2025-10-23T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe0f"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3d",
+    "owner_id": "693fd1ca7ea4cbcaed019912",
+    "parent_comment_id": null,
+    "comment_content": "Lightweight and portable.",
+    "created_at": {
+      "$date": "2025-12-05T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe10"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c40",
+    "owner_id": "693ec78cadf9688bb79dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Hinges feel sturdy.",
+    "created_at": {
+      "$date": "2025-10-14T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe11"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3d",
+    "owner_id": "693fd1ca7ea4cbcaed019912",
+    "parent_comment_id": null,
+    "comment_content": "Premium build materials.",
+    "created_at": {
+      "$date": "2025-12-09T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe12"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c40",
+    "owner_id": "693fd1ca7ea4cbcaed019912",
+    "parent_comment_id": null,
+    "comment_content": "Fan noise is noticeable.",
+    "created_at": {
+      "$date": "2025-09-22T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe13"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3f",
+    "owner_id": "693ec76376eb27ad7e9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Software is bloat-free.",
+    "created_at": {
+      "$date": "2025-11-19T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe14"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3f",
+    "owner_id": "693ec78cadf9688bb79dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Battery life could be better.",
+    "created_at": {
+      "$date": "2025-09-25T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe15"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3d",
+    "owner_id": "693ec71b459eb2620c9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Storage fills up quickly.",
+    "created_at": {
+      "$date": "2025-11-25T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe16"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3f",
+    "owner_id": "693fd1ca7ea4cbcaed019912",
+    "parent_comment_id": null,
+    "comment_content": "Hinges feel sturdy.",
+    "created_at": {
+      "$date": "2025-09-18T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe17"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3d",
+    "owner_id": "693ec78cadf9688bb79dc29d",
+    "parent_comment_id": "693fd7e7255db70d804fbe0c",
+    "comment_content": "Fan noise is noticeable.",
+    "created_at": {
+      "$date": "2025-12-13T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe18"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3e",
+    "owner_id": "693ec1e51ec61017ca9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Price is justified.",
+    "created_at": {
+      "$date": "2025-09-25T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe19"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c41",
+    "owner_id": "693ec1e51ec61017ca9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Perfect for students.",
+    "created_at": {
+      "$date": "2025-08-23T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe1a"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c40",
+    "owner_id": "693ec78cadf9688bb79dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Lightweight and portable.",
+    "created_at": {
+      "$date": "2025-08-22T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe1b"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c40",
+    "owner_id": "693ec76376eb27ad7e9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "RAM is sufficient for multitasking.",
+    "created_at": {
+      "$date": "2025-10-08T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe1c"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3d",
+    "owner_id": "693fd1947ea4cbcaed019911",
+    "parent_comment_id": "693fd7e7255db70d804fbe0a",
+    "comment_content": "Best purchase this year.",
+    "created_at": {
+      "$date": "2025-09-07T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe1d"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c41",
+    "owner_id": "693ec78cadf9688bb79dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Fast boot time.",
+    "created_at": {
+      "$date": "2025-11-25T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe1e"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3e",
+    "owner_id": "693ec78cadf9688bb79dc29d",
+    "parent_comment_id": null,
+    "comment_content": "GPU performs well in games.",
+    "created_at": {
+      "$date": "2025-09-06T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe1f"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3e",
+    "owner_id": "693ec76376eb27ad7e9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Fan noise is noticeable.",
+    "created_at": {
+      "$date": "2025-09-18T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe20"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c41",
+    "owner_id": "693fd1947ea4cbcaed019911",
+    "parent_comment_id": null,
+    "comment_content": "Not worth the money.",
+    "created_at": {
+      "$date": "2025-10-28T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe21"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3f",
+    "owner_id": "693fd1947ea4cbcaed019911",
+    "parent_comment_id": null,
+    "comment_content": "Price is justified.",
+    "created_at": {
+      "$date": "2025-12-07T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe22"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c41",
+    "owner_id": "693ec71b459eb2620c9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Excellent customer support.",
+    "created_at": {
+      "$date": "2025-10-06T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe23"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3e",
+    "owner_id": "693ec71b459eb2620c9dc29d",
+    "parent_comment_id": "693fd7e7255db70d804fbe1e",
+    "comment_content": "Would recommend this.",
+    "created_at": {
+      "$date": "2025-10-22T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe24"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c40",
+    "owner_id": "693ec71b459eb2620c9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Not worth the money.",
+    "created_at": {
+      "$date": "2025-09-12T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe25"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c41",
+    "owner_id": "693ec76376eb27ad7e9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Keyboard is comfortable.",
+    "created_at": {
+      "$date": "2025-09-15T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe26"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3e",
+    "owner_id": "693fd1947ea4cbcaed019911",
+    "parent_comment_id": null,
+    "comment_content": "Battery drains during heavy use.",
+    "created_at": {
+      "$date": "2025-08-22T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe27"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c40",
+    "owner_id": "693ec71b459eb2620c9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Perfect for my needs.",
+    "created_at": {
+      "$date": "2025-10-09T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe28"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3e",
+    "owner_id": "693ec78cadf9688bb79dc29d",
+    "parent_comment_id": "693fd7e7255db70d804fbe1e",
+    "comment_content": "RGB lighting is cool.",
+    "created_at": {
+      "$date": "2025-10-28T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe29"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3d",
+    "owner_id": "693fd1947ea4cbcaed019911",
+    "parent_comment_id": null,
+    "comment_content": "Price is justified.",
+    "created_at": {
+      "$date": "2025-10-19T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe2a"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c40",
+    "owner_id": "693ec71b459eb2620c9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Hinges feel sturdy.",
+    "created_at": {
+      "$date": "2025-12-02T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe2b"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3e",
+    "owner_id": "693ec78cadf9688bb79dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Upgradability is limited.",
+    "created_at": {
+      "$date": "2025-10-14T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe2c"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3f",
+    "owner_id": "693ec71b459eb2620c9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Hinges feel sturdy.",
+    "created_at": {
+      "$date": "2025-10-23T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe2d"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c41",
+    "owner_id": "693ec76376eb27ad7e9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Overpriced in my opinion.",
+    "created_at": {
+      "$date": "2025-08-19T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe2e"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c3e",
+    "owner_id": "693ec71b459eb2620c9dc29d",
+    "parent_comment_id": null,
+    "comment_content": "Excellent customer support.",
+    "created_at": {
+      "$date": "2025-12-01T16:41:59.879310Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fd7e7255db70d804fbe2f"
+    },
+    "article_id": "675e8a1f2c4d3e8f9a1b2c40",
+    "owner_id": "693ec71b459eb2620c9dc29d",
+    "parent_comment_id": "693fd7e7255db70d804fbe27",
+    "comment_content": "Screen quality is amazing.",
+    "created_at": {
+      "$date": "2025-09-07T16:41:59.879310Z"
+    }
+  }
+]
